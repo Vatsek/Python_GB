@@ -12,7 +12,7 @@
 import os
 os.system('clear')
 
-это для MacOS
+# это для MacOS
 
 array = [0, -1, 5 ,2 ,3, 3, 9, 7, 6, 9]
 count = 0
