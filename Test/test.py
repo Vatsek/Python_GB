@@ -1,11 +1,14 @@
-text = 'съешь еще этих мягких французских булок'
-print(text[0])
-print(text[1])
-print(text[len(text)-1])
-print(text[-5])
-print(text[:])
-print(text[:2])
-print(text[len(text)-2:])
-print(text[2:9])
-print(text[6:-18])
-print(text[0:len(text):6])
+def f(x):
+    if x == 1:
+        return 'Целое'
+    elif x == 2.3:
+        return 23
+    else:
+        return
+    
+print(f(1))
+print(f(2.3))
+print(f(28))
+print(type(f(1)))
+print(type(f(2.3)))
+print(type(f(28)))
