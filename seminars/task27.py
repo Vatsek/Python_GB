@@ -26,8 +26,3 @@ st = st.replace('\'', " ")
 words = set(st.split())
 print(words)
 print(len(words))
-
-
-
-степик
-codewars

@@ -1,59 +1,59 @@
 def f(x):
     return x**2
 
-# g = f
+g = f
 
-# print(type(f))
-# print(type(g))
+print(type(f))
+print(type(g))
 
-# print(f(4))
-# print(g(4))
+print(f(4))
+print(g(4))
 
-# def calc1(x):
-#     return x+10
+def calc1(x):
+    return x+10
 
-# def calc2(x):
-#     return x*10
+def calc2(x):
+    return x*10
 
-# def math(op, x):
-#     print(op(x))
-
-
-# math(calc2, 10)
-# math(calc1, 10)
+def math(op, x):
+    print(op(x))
 
 
-# def sum(x, y):
-#     return x+y
-
-# sum = lambda x, y: x+y # тоже самое, что и функция выше!
+math(calc2, 10)
+math(calc1, 10)
 
 
-# def mult(x, y):
-#     return x*y
+def sum(x, y):
+    return x+y
+
+sum = lambda x, y: x+y # тоже самое, что и функция выше!
 
 
-# def calc(op, a, b):
-#     print(op(a, b))
-#     # return op(a, b) если требуется вернуть а не напечатать
+def mult(x, y):
+    return x*y
 
 
-# calc(lambda x, y: x+y, 4, 5)
+def calc(op, a, b):
+    print(op(a, b))
+    # return op(a, b) если требуется вернуть а не напечатать
 
-# List comprehension
 
-# list = []
-# for i in range(1, 21):
-#     if (i % 2 == 0):
-#         list.append(i)
+calc(lambda x, y: x+y, 4, 5)
 
-# list = [i for i in range(1, 21) if i % 2 == 0]
+List comprehension
 
-# print(list)
+list = []
+for i in range(1, 21):
+    if (i % 2 == 0):
+        list.append(i)
 
-# def f(x):
-#     return x**3
-# list = [(i, f(i)) for i in range(1, 21) if i % 2 == 0]
-# print(list)
+list = [i for i in range(1, 21) if i % 2 == 0]
+
+print(list)
+
+def f(x):
+    return x**3
+list = [(i, f(i)) for i in range(1, 21) if i % 2 == 0]
+print(list)
 
 
